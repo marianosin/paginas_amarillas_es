@@ -1,0 +1,4 @@
+*.csv
+*.zip
+.venv/
+response.xpath('//div[@class="directorio"]/div[@class="container"]/div[@class="row"]//a//@href').extract()
